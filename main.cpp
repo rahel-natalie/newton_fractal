@@ -258,8 +258,8 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		ExportImage(result, "newton_fractal.png");
 		ispc_pixel_calculation_fun(target_area);
+		ExportImage(result, "newton_fractal.png");
 		show_image_on_screen(result, img_data, target_area, ispc_pixel_calculation_fun);
 	}
 }
